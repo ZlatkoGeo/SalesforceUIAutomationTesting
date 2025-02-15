@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="common.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Functional Testing(failed)">
+    <classes>
+      <class name="uiTestNG.GroupsDemoTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="dataTearndown"/>
+          <include name="bTest2"/>
+          <include name="beforeClass"/>
+          <include name="dataSetup"/>
+        </methods>
+      </class> <!-- uiTestNG.GroupsDemoTest -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [UI Test Suite] -->

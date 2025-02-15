@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SF Create Test Suite">
+		<listeners>
+			<listener class-name="testbase.common.Listeners"></listener>
+			<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		</listeners>
+	<test name="Reports Testing Creation">
+		<classes>
+			<class name="uiSalesforce.CreateContact" />
+			<class name="uiSalesforce.CreateAccount" />
+			<class name="uiSalesforce.CreateCase" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
