@@ -44,11 +44,11 @@ This project is designed to automate UI testing for Salesforce using Selenium wi
 
 mvn clean install
 
-To execute tests, run:
-mvn test -DsuiteXmlFile=mastertestng.xml
-For specific test suites:
-mvn test -DsuiteXmlFile="SF Test Suite AddInfo.xml"
-mvn test -DsuiteXmlFile="SF Test Suite Create.xml"
+To execute tests, run:<br>
+mvn test -DsuiteXmlFile=mastertestng.xml<br>
+For specific test suites:<br>
+mvn test -DsuiteXmlFile="SF Test Suite AddInfo.xml"<br>
+mvn test -DsuiteXmlFile="SF Test Suite Create.xml"<br>
 
 Reporting
 Test execution results can be found under the test-output folder.
